@@ -64,4 +64,36 @@
 
   h4 {
     display:inline;
-    } 
+  }
+
+  #circledchess {
+    border-radius: 50%;
+  }
+
+  #subscribebutton {
+    background-color: red;
+    color: white;
+    margin-left: 100px;
+
+  }
+
+  #descriptioncontent {
+    color: gray;
+    font-size: 80%;
+  }
+
+  #inner-description {
+    margin-left: 100px;
+  }
+
+  #randomp {
+    margin-right: 1000px;
+  }
+
+  #randomppic {
+    border-radius: 50%;
+  }
+
+  #comment-buttons {
+    margin-left: 100px;
+  }
