@@ -51,3 +51,13 @@
       border: 1px solid #ccc;
     }
   }
+
+  #Camera {
+    width: 10px;
+    height: 10px;
+    background: url(../resources/Toolbar.png) 0 0;
+  }
+
+  .side-bar {
+    margin-left: 100px;
+  }
