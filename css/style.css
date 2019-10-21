@@ -97,3 +97,30 @@
   #comment-buttons {
     margin-left: 100px;
   }
+
+  /* Left and right column */
+.column.side {
+  width: 10%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+li {
+  width: 50%;
+}
+.photo {
+  border-radius: 50%;
+}

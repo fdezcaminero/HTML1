@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>YouTube Page</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <div class="topnav">
-                    <img src="resources/logo.png" alt="youtube logo" height="50">
-                    <input type="text" placeholder="Search">
-                    <button><img src="resources/magnify.png" height="10" ></button>
-                    <button><img src="resources/Toolbar.png" class="Camera"></button>
-                </div>
-            </nav>
 
-        </header>
+<head>
+    <title>YouTube Page</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
 
-        <section id="Video">
-            
-            <video height="500" width="500" controls autoplay>
-                <source src="resources/Capablanca.mp4" type="video/mp4">
-            </video>
+<body>
+    <header>
+        <nav>
+            <div class="topnav">
+                <img src="resources/logo.png" alt="youtube logo" height="50">
+                <input type="text" placeholder="Search">
+                <button><img src="resources/magnify.png" height="10"></button>
+                <button><img src="resources/Toolbar.png" class="Camera"></button>
+            </div>
+        </nav>
 
-            <h2>Bobby Fischer discusses Capablanca</h2>
-            <div>
+    </header>
+
+    <section id="Video">
+
+        <video height="500" width="500" controls autoplay>
+            <source src="resources/Capablanca.mp4" type="video/mp4">
+        </video>
+
+        <h2>Bobby Fischer discusses Capablanca</h2>
+        <div>
             <h4 class="inline">Infinite Views • October 21 2019</h4>
-            
+
             <button><i class="material-icons">thumb_up</i>2k</button>
             <button><i class="material-icons">thumb_down</i>15</button>
             <button><i class="material-icons">screen_share</i>Share</button>
@@ -35,55 +37,77 @@
             <a href="" target="_blank"><i class="material-icons">more_horizontal</i></a>
         </div>
 
-        </section>
+    </section>
 
-        <section id="Description">
+    <section id="Description">
 
-            <img id="circledchess" src="resources/download.jpeg" height="50">
+        <img id="circledchess" src="resources/download.jpeg" height="50">
 
-            <div id="inner-description">
-                Chess Mania 
+        <div id="inner-description">
+            Chess Mania
 
-                <button id="subscribebutton">Subscribe</button>
-
-                <br><p id="descriptioncontent">Infinite Subscribers!</p>
-                <br>
-                <p id="randomp">Chess is a sport, a science, and an art. Here we can see the American player Bobby Fischer discussing the Cuban player, Capablanca.</p>
-            </div>
-        </section>
-
-        <section id="Comments">
-
-            A Whole Lot of Comments! <button><i class="material-icons">sort</i> Sort By</button>
+            <button id="subscribebutton">Subscribe</button>
 
             <br>
+            <p id="descriptioncontent">Infinite Subscribers!</p>
+            <br>
+            <p id="randomp">Chess is a sport, a science, and an art. Here we can see the American player Bobby Fischer
+                discussing the Cuban player, Capablanca.</p>
+        </div>
+    </section>
 
-            <img id="randomppic" src="resources/randomprofilepic.png" height="45">
+    <section id="Comments">
 
-            <input placeholder="Add a public comment..." type="text">
+        A Whole Lot of Comments! <button><i class="material-icons">sort</i> Sort By</button>
 
-            <div id="comment-buttons">
-                <button type="submit">Cancel</button>
-                <button type="submit">Comment</button>
+        <br>
+
+        <img id="randomppic" src="resources/randomprofilepic.png" height="45">
+
+        <input placeholder="Add a public comment..." type="text">
+
+        <div id="comment-buttons">
+            <button type="submit">Cancel</button>
+            <button type="submit">Comment</button>
+        </div>
+
+        <ul>
+            <li>
+                <div class="row">
+                <div class="column side">
+                    <img class="photo" src="resources/photo1.jpg">
+                </div>
+                <div class="column middle">
+                    <span>Name</span>
+                </div>
+                <div class="column side">
+
+                </div>
             </div>
+            </li>
+            <li>
+                <img src="resources/photo2.jpg">
+                <h4>Name</h4>
+                <p>Comment</p>
+            </li>
+            <li>
+                <img src="resources/photo2.jpg">
+                <h4>Name</h4>
+                <p>Comment</p>
+            </li>
+        </ul>
 
-            <ul>
-                <li>
+    </section>
 
-                </li>
-            </ul>
+    <aside id="side-bar">
 
-        </section>
+        This is the sidebar!!!
 
-        <aside id="side-bar">
+    </aside>
 
-            This is the sidebar!!!
+    <footer></footer>
 
-        </aside>
-
-        <footer></footer>
-
-    </body>
+</body>
 
 
 </html>
