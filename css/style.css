@@ -131,3 +131,28 @@ li {
   color: gray;
   font-weight: lighter;
 }
+
+#side-bar {
+  left-margin: 100px;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+hr {
+  background-color: red;
+}
