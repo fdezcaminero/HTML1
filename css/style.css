@@ -70,7 +70,7 @@
   }
 
   #sprites {
-    position: fixed;
+    position: absolute;
     right: 0;
   }
   #Camera {
