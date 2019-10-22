@@ -84,12 +84,12 @@
   }
 
   #randomp {
-    margin-right: 1000px;
+    
   }
 
 
   #comment-buttons {
-    margin-left: 100px;
+    float: right;
   }
 
   /* Left and right column */
@@ -113,7 +113,7 @@
   padding: 10px;
 }
 li {
-  width: 50%;
+  width: 100%;
 }
 .roundedimg {
   border-radius: 50%;
@@ -138,12 +138,22 @@ li {
 
 .column1 {
   float: left;
-  width: 50%;
+  width: 65%;
 }
 
 .column2 {
   float: left;
-  width: 50%;
+  width: 35%;
+}
+
+.column10 {
+  float: left;
+  width: 10%;
+}
+
+.column90 {
+  float: right;
+  width: 90%;
 }
 
 /* Clear floats after the columns */
@@ -155,4 +165,15 @@ li {
 
 hr {
   background-color: red;
+}
+
+.nobullets {
+  list-style-type:none
+}
+.expand{
+  width: 100%;
+  height: 50px;
+}
+.no-right-margin {
+  margin-right: -1;
 }
