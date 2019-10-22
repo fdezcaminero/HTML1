@@ -48,12 +48,6 @@
   }
 
 
-  #Camera {
-    width: 10px;
-    height: 10px;
-    background: url(../resources/Toolbar.png) 0 0;
-  }
-
   
   h4 {
     display:inline;
@@ -162,3 +156,58 @@ hr {
 .no-right-margin {
   margin-right: -1;
 }
+
+#sprites {
+  float: right;
+}
+
+
+#thepost, #theapps, #thenots, #thename {
+  background-image: url(../resources/Toolbar.png);
+  background-repeat: no-repeat;
+}
+
+#thepost {
+  width: 25px;
+  height: 25px;
+  background-position: 3px -3px;
+}
+
+#theapps {
+  width: 25px;
+  height: 25px;
+  background-position: -43px -3px;
+}
+
+#thenots {
+  width: 25px;
+  height: 25px;
+  background-position: -95px -3px;
+}
+
+#thename {
+  width: 25px;
+  height: 25px;
+  background-position: -147px -3px;
+}
+
+#button1 {
+  padding: none;
+  border: none;
+}
+
+#button2 {
+  padding: none;
+  border: none;
+}
+
+#button3 {
+  padding: none;
+  border: none;
+}
+
+#button4 {
+  padding: none;
+  border: none;
+}
+
