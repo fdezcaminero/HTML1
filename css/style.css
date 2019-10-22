@@ -1,6 +1,8 @@
   .topnav {
     /*overflow: hidden;*/
     background-color: #e9e9e9;
+    display: inline-flex;
+    width: 100%;
   }
 
   /* Style the links inside the navigation bar 
@@ -28,26 +30,49 @@
   
   /* Style the search box inside the navigation bar*/ 
   #srchbox { 
-    margin-left: 250px;
+    margin-top:15px;
+    
+    /*margin-left: 250px;
     margin-right: 16px;
-    margin-bottom: 25px;
+    margin-bottom: 25px;*/
   }
+  
+  #srchbox input {
+    height: 30px;
+    width: 250px;
+  }
+
 
   #Toolbar {
     float: right;
+    height: 50px;
   }
 
-  #logo {
-    margin-top: 20px;
-  }
 
-  #UTube, #srchbox, #magnify, #sprites{
+
+  #UTube, #srchbox, #sprites {
 
     display: inline;
 
   }
 
+  #srchbutton {
 
+    height: 36px;
+    width: 46px;
+
+  }
+  #srchbox {
+    display:inherit;
+  }
+  #UTube {
+    margin-right: 5%;
+  }
+
+  #sprites {
+    position: fixed;
+    right: 0;
+  }
   #Camera {
     width: 10px;
     height: 10px;
