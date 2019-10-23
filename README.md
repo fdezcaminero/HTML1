@@ -44,4 +44,7 @@ No licenses required as project was developed in educational eviroment.
 (in alphabetical order):
 
 José "José" Fernández-Caminero: fdezcaminero@gmail.com
+
+<br>
+
 Rey David "Rey" Cuevas Vela: cuevas.vela@gmail.com
