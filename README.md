@@ -25,9 +25,7 @@ First we used nav tags to create a nice looking navbar. Further down we used a l
 We are especially proud of having incorporated Sprites to our sourcecode. This is seen with the file Toolbar.png which is used for 4 seperate icons on the webpage.
 
 <br>
-Project created using HTML and CSS3
-<br>
-<br>
+
 For more details about the YouTube Project and it's requirements go to <a href="https://www.theodinproject.com/courses/html5-and-css3/lessons/embedding-images-and-video"> The Odin Project</a>
 
 ### Built With
