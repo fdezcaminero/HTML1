@@ -1,10 +1,7 @@
-# MICROVERSE
+# THE FAKE YOUTUBE
 
-# Basic HTML Page Structure
-
-# Embedding Images and Video
-
-# [Collaborative Project]
+# MICROVERSE COLLABORATIVE PROJECT
 
 # Members (in alphabetical order): José and Rey David
+
 
