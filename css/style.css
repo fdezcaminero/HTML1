@@ -29,13 +29,6 @@
   }*/
   
   /* Style the search box inside the navigation bar*/ 
-  #srchbox { 
-    margin-top:15px;
-    
-    /*margin-left: 250px;
-    margin-right: 16px;
-    margin-bottom: 25px;*/
-  }
   
   #srchbox input {
     height: 30px;
@@ -57,14 +50,15 @@
   }
 
   #srchbutton {
-
     height: 36px;
     width: 46px;
-
-<<<<<<< HEAD
+    position: absolute;
   }
+<<<<<<< HEAD
+  
   #srchbox {
     display:inherit;
+    margin-top:15px;
   }
   #UTube {
     margin-right: 5%;
@@ -119,12 +113,6 @@
   width: 50%;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .column {
   float: left;
   padding: 10px;
@@ -176,10 +164,6 @@ li {
   clear: both;
 }
 
-hr {
-  background-color: red;
-}
-
 .nobullets {
   list-style-type:none
 }
@@ -225,23 +209,9 @@ hr {
   background-position: -147px -3px;
 }
 
-#button1 {
+#button1, #button2, #button3, #button4 {
   padding: none;
   border: none;
 }
 
-#button2 {
-  padding: none;
-  border: none;
-}
-
-#button3 {
-  padding: none;
-  border: none;
-}
-
-#button4 {
-  padding: none;
-  border: none;
-}
 
