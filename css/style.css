@@ -1,0 +1,202 @@
+  .topnav {
+    background-color: #e9e9e9;
+    display: inline-flex;
+    width: 100%;
+  }
+  
+  #srchbox input {
+    height: 30px;
+    width: 250px;
+  }
+
+
+  #Toolbar {
+    float: right;
+    height: 50px;
+  }
+
+
+
+  .display-inline {
+
+    display: inline;
+
+  }
+
+  #srchbutton {
+    height: 36px;
+    width: 46px;
+  }
+  
+  #srchbox {
+    display:inherit;
+    margin-top:15px;
+  }
+  #UTube {
+    margin-right: 5%;
+  }
+
+  #sprites {
+    position: absolute;
+    right: 0;
+  }
+  #Camera {
+    width: 10px;
+    height: 10px;
+    background: url(../resources/Toolbar.png) 0 0;
+  }
+
+  
+  h4 {
+    display:inline;
+  }
+
+
+  #subscribebutton {
+    background-color: red;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 30px;
+  }
+
+  #descriptioncontent {
+    color: gray;
+    font-size: 80%;
+  }
+
+  #comment-buttons {
+    float: right;
+  }
+
+.column.side {
+  width: 10%;
+}
+
+.column.middle {
+  width: 50%;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+li {
+  width: 100%;
+}
+.roundedimg {
+  border-radius: 50%;
+}
+
+.name{
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  
+  font-weight: bold;
+  padding-right: 1rem;
+}
+
+.time{
+  font-family: roboto,Arial, Helvetica, sans-serif;
+  color: gray;
+  font-weight: lighter;
+}
+
+.column1 {
+  float: left;
+  width: 65%;
+}
+
+.column2 {
+  float: left;
+  width: 35%;
+}
+
+.column10 {
+  float: left;
+  width: 10%;
+}
+
+.column90 {
+  float: right;
+  width: 90%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nobullets {
+  list-style-type:none
+}
+.expand{
+  width: 100%;
+  height: 50px;
+}
+.no-right-margin {
+  margin-right: -1;
+}
+
+#sprites {
+  float: right;
+}
+
+
+.bkg-img {
+  background-image: url(../resources/Toolbar.png);
+  background-repeat: no-repeat;
+}
+
+#thepost {
+  width: 25px;
+  height: 25px;
+  background-position: 3px -3px;
+}
+
+#theapps {
+  width: 25px;
+  height: 25px;
+  background-position: -43px -3px;
+}
+
+#thenots {
+  width: 25px;
+  height: 25px;
+  background-position: -95px -3px;
+}
+
+#thename {
+  width: 25px;
+  height: 25px;
+  background-position: -147px -3px;
+}
+
+.btn-sprite {
+  padding: none;
+  border: none;
+}
+
+video {
+  width: 95%;
+}
+
+.col {
+  display: inline-block;
+}
+
+.col-10{
+  width: 10%;
+}
+
+.col-70{
+  width: 70%;
+}
+
+.channel-name{
+  margin-bottom: 0;
+}
+
+.color-gray {
+  color:gray;
+}

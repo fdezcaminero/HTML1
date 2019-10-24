@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>YouTube Page</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="topnav">
+                <div id="UTube" class="display-inline">
+                    <img id="logo" src="resources/logo.png" alt="youtube logo" height="50">
+                </div>
+
+                <div id="srchbox" class="display-inline">
+                    <input type="text" placeholder="Search">
+                    <button id="srchbutton"><img src="resources/magnify.png" height="25" width="25" alt="Search"></button>
+                </div>
+
+                <div id="sprites" class="display-inline">
+
+                    <button class="btn-sprite"><img class="bkg-img" id="thepost" src="resources/img_trans.png" alt="Post new video"></button>
+                    <button class="btn-sprite"><img class="bkg-img" id="theapps" src="resources/img_trans.png" alt="Apps"></button>
+                    <button class="btn-sprite"><img class="bkg-img" id="thenots" src="resources/img_trans.png" alt="Notifications"></button>
+                    <button class="btn-sprite"><img class="bkg-img" id="thename" src="resources/img_trans.png" alt="Your Account"></button>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="row">
+        <div class="column1">
+            <section id="Video">
+
+                <video controls autoplay>
+                    <source src="resources/Capablanca.mp4" type="video/mp4">
+                </video>
+
+                <h2>Bobby Fischer discusses Capablanca</h2>
+                <div>
+                    <h4 class="inline color-gray">204.020 Views • October 21 2019</h4>
+
+                    <button><i class="material-icons">thumb_up</i>2k</button>
+                    <button><i class="material-icons">thumb_down</i>15</button>
+                    <button><i class="material-icons">screen_share</i>Share</button>
+                    <button><i class="material-icons">playlist_add</i>Save</button>
+                    <a href="" target="_blank"><i class="material-icons">more_horizontal</i></a>
+                </div>
+
+            </section>
+
+            <section id="Description">
+                <div class="row">
+                    <div class="col col-10">
+                        <img class="roundedimg" src="resources/download.jpeg" height="50" alt="Chess Mania">
+                    </div>
+
+                    <div class="col col-70">
+                        
+                            <h3 class="channel-name">Chess Mania</h3>
+
+                            <h4 class="color-gray">170.9 K subscribers</h4>                       
+                    </div>
+                    <div class="col">
+                        <button id="subscribebutton">Subscribe</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>Chess is a sport, a science, and an art. Here we can see the American player Bobby
+                            Fischer
+                            discussing the Cuban player, Capablanca.</p>
+                    </div>
+                </div>
+            </section>
+            <div>
+                <section id="Comments">
+                    <h3>
+                    6 Comments </h3><button class="toright"><i class="material-icons">sort</i> Sort By</button>
+                    <br>
+                    <div class="column10">
+                        <img class="roundedimg" src="resources/randomprofilepic.png" height="45" alt="My Account">
+                    </div>
+                    <div class="column90">
+                        <input class="expand" placeholder="Add a public comment..." type="text">
+                        <br>
+                        <div id="comment-buttons">
+                            <button type="submit">Cancel</button>
+                            <button class="no-right-margin" type="submit">Comment</button>
+                        </div>
+                    </div>
+                    <ul class="nobullets">
+                        <li>
+                            <div class="row">
+                                <div class="column">
+                                    <img class="roundedimg" src="resources/photo1.jpg" alt="Youtube User">
+                                </div>
+                                <div class="column">
+                                    <span class="name">John Trumann</span><span class="time">22 minutes ago</span>
+                                    <p>Some comments here about the video </p>
+                                    <br>
+                                    <button><i class="material-icons">thumb_up</i>25</button>
+                                    <button><i class="material-icons">thumb_down</i>15</button>
+                                    <button>Reply</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="column side">
+                                    <img class="roundedimg" src="resources/photo2.jpg" alt="Youtube User">
+                                </div>
+                                <div class="column middle">
+                                    <span class="name">Donal Winkler</span><span class="time">20 minutes ago</span>
+                                    <p>Some comments here about the video </p>
+                                    <br>
+                                    <button><i class="material-icons">thumb_up</i>2</button>
+                                    <button><i class="material-icons">thumb_down</i></button>
+                                    <button>Reply</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="column side">
+                                    <img class="roundedimg" src="resources/photo3.jpg" alt="Youtube User">
+                                </div>
+                                <div class="column middle">
+                                    <span class="name">Axel Donovan</span><span class="time">19 minutes ago</span>
+                                    <p>Some comments here about the video </p>
+                                    <br>
+                                    <button><i class="material-icons">thumb_up</i>5</button>
+                                    <button><i class="material-icons">thumb_down</i>15</button>
+                                    <button>Reply</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="column side">
+                                    <img class="roundedimg" src="resources/photo4.jpg" alt="Youtube User">
+                                </div>
+                                <div class="column middle">
+                                    <span class="name">NoName</span><span class="time">15 minutes ago</span>
+                                    <p>Some comments here about the video </p>
+                                    <br>
+                                    <button><i class="material-icons">thumb_up</i>0</button>
+                                    <button><i class="material-icons">thumb_down</i>15</button>
+                                    <button>Reply</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="column side">
+                                    <img class="roundedimg" src="resources/photo5.jpg" alt="Youtube User">
+                                </div>
+                                <div class="column middle">
+                                    <span class="name">Javier Tenerias</span><span class="time">9 minutes ago</span>
+                                    <p>Some comments here about the video </p>
+                                    <br>
+                                    <button><i class="material-icons">thumb_up</i>2</button>
+                                    <button><i class="material-icons">thumb_down</i></button>
+                                    <button>Reply</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="column side">
+                                    <img class="roundedimg" src="resources/photo6.jpg" alt="Youtube User">
+                                </div>
+                                <div class="column middle">
+                                    <span class="name">Ruth Goodwoman</span><span class="time">a minutes ago</span>
+                                    <p>Some comments here about the video </p>
+                                    <br>
+                                    <button><i class="material-icons">thumb_up</i>20</button>
+                                    <button><i class="material-icons">thumb_down</i>1</button>
+                                    <button>Reply</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </section>
+            </div>
+        </div>
+
+        <div class="column2">
+            <aside>
+
+                Up next
+
+                <button type="button">Autoplay</button>
+
+                <br>
+                <div class="row">
+                    <div class="column">
+                        <img src="resources/image1.png" height="94" width="168" alt="Recommended Video">
+                    </div>
+                    <div class="column">
+                        Reach Nirvana by playing Chess
+
+                        <br><br>
+                        <p>Capablanca
+                            <br>
+                            128K Views
+                        </p>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <br>
+
+                <div class="row">
+                    <div class="column">
+                        <img src="resources/image2.png" height="94" width="168" alt="Recommended Video">
+                    </div>
+                    <div class="column">
+                        Meet girls playing chess
+
+                        <br><br>
+                        <p>Marie Curie
+                            <br>
+                            237K Views
+                        </p>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="column">
+                        <img src="resources/image3.png" height="94" width="168" alt="Recommended Video">
+                    </div>
+
+                    <div class="column">
+                        Understand alien intelligence with chess
+
+                        <br><br>
+                        <p>E.T.
+                            <br>
+                            1983K Views
+                        </p>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+
+                    <div class="column">
+                        <img src="resources/image4.png" height="94" width="168" alt="Recommended Video">
+                    </div>
+                    <div class="column">
+                        Buy the new Barbie chess set for your daughter
+
+                        <br><br>
+                        <p>Toys R Us
+                            <br>
+                            99K Views
+                        </p>
+                    </div>
+
+                </div>
+
+                <br>
+
+                <div class="row">
+
+                    <div class="column">
+                        <img src="resources/image5.png" height="94" width="168" alt="Recommended Video">
+                    </div>
+                    <div class="column">
+                        Become rich playing chess
+
+                        <br><br>
+                        <p>Bill Gates
+                            <br>
+                            217K Views
+                        </p>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+
+                    <div class="column">
+                        <img src="resources/image6.png" height="94" width="168" alt="Recommended Video">
+                    </div>
+                    <div class="column">
+                        Meet God playing chess
+
+                        <br><br>
+                        <p>Juan Pablo Duarte
+                            <br>
+                            1315K Views
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="column">
+                        <img src="resources/image7.png" height="94" width="168" alt="Recommended Video">
+                    </div>
+                    <div class="column">
+                        Watch out for Chess adiction
+
+                        <br><br>
+                        <p>Sigmund Freud
+                            <br>
+                            888K Views
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="column">
+                        <img src="resources/image8.png" height="94" width="168" alt="Recommended Video">
+                    </div>
+                    <div class="column">
+                        Greatest chess players of all time
+
+                        <br><br>
+                        <p>Benito Juárez
+                            <br>
+                            323K Views
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="column">
+                        <img src="resources/image9.png" height="94" width="168" alt="Recommended Video">
+                    </div>
+                    <div class="column">
+                        A.I. and board games
+
+                        <br><br>
+                        <p>Dave Smith
+                            <br>
+                            32 Views
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="column">
+                        <img src="resources/image10.png" height="94" width="168" alt="Recommended Video"> 
+                    </div>
+                    <div class="column">
+                        Get into Chinese Chess
+
+                        <br><br>
+                        <p>Yasunaru Kawabata
+                            <br>
+                            217 Views
+                        </p>
+                    </div>
+                </div>
+
+            </aside>
+        </div>
+
+
+    </div>
+
+    <footer></footer>
+
+</body>
+
+
+</html>
